@@ -3,14 +3,14 @@
 This is the repo to learn and advance my skills with GitHub Actions by following the Linkedin Learning Course.
 
 # Learning objectives
-<li>
+
   <ol>
-Creating an action
-Creating a workflow
-Adding actions to a workflow
-Using an action from a repository
-Developing a CI/CD pipeline with GitHub Actions
-Building custom actions
-Publishing an action to the GitHub Marketplace
+<li> Creating an action  </li>
+<li>Creating a workflow  </li>
+<li>Adding actions to a workflow  </li>
+<li>Using an action from a repository  </li>
+<li>Developing a CI/CD pipeline with GitHub Actions  </li>
+<li>Building custom actions  </li>
+<li> Publishing an action to the GitHub Marketplace  </li>
     </ol>
-  </li>
+
