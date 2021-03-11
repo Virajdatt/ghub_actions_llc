@@ -28,4 +28,4 @@ jobs:
       - name: List what was checked out
         run: ls ./Python_docker -ltr
       - name: Using scecrets
-        run: cat ${{ secrets.TEST }}
+        run: echo ${{ secrets.TEST }}
