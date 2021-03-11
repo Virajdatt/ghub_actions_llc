@@ -27,3 +27,5 @@ jobs:
           path: ./Python_docker
       - name: List what was checked out
         run: ls ./Python_docker -ltr
+      - name: Using scecrets
+        run: cat ${{ secrets.TEST }}
