@@ -27,18 +27,22 @@ jobs:
           path: ./Python_docker
       - name: List what was checked out
         run: ls ./Python_docker -ltr
+      
       - name: Using scecrets
         run: echo ${{ secrets.TEST }}
       
-      - name: Build docker image and save it as a tar
+      - name: Build docker image for us
         run: |
           docker build -t flask-image ./Python_docker
-          docker save "flask-image" > ./flask-image.tar
+      
+      - name: Save docker image for us
+        run: docker save flask-image:latest > ./Python_docker/flask-image.tar
+      
       - name: List contents of "./Python_docker"
         run: ls ./Python_docker -ltr
       
       - uses: actions/upload-artifact@v2
         with:
           name: docker-artifact
-          path: ./flask-image.tar
+          path: ./Python_docker/flask-image.tar
 
