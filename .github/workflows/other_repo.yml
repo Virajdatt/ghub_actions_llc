@@ -21,7 +21,7 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: Checkout my python docker repo
       - uses: actions/checkout@v2
-      with:
+        with:
           repository: Virajdatt/Python_Docker
           ref: master
           path: /
