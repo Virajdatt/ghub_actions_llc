@@ -26,11 +26,4 @@ jobs:
           ref: master
           path: ./Python_docker
       - name: List what was checked out
-        run: ls -ltr
-      
-
-      # Runs a single command using the runners shell
-      - name: Run a multi-line script on Ubuntu
-        run: |
-          ls
-          cat README.md
+        run: ls ./Python_docker -ltr
