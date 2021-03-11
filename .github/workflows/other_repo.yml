@@ -24,9 +24,9 @@ jobs:
         with:
           repository: Virajdatt/Python_Docker
           ref: master
-          path: /
+          path: ./Python_docker
       - name: List what was checked out
-        run: ls -l
+        run: ls -ltr
       
 
       # Runs a single command using the runners shell
