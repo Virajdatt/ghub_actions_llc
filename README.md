@@ -1,5 +1,5 @@
 # ghub_actions_llc
-# Pipline status https://github.com/Virajdatt/ghub_actions_llc/actions/workflows/other_repo.yml/badge.svg
+# Pipline status ![](https://github.com/Virajdatt/ghub_actions_llc/actions/workflows/other_repo.yml/badge.svg)
 This is the repo to learn and advance my skills with GitHub Actions by following the Linkedin Learning Course.
 
 # Learning objectives
